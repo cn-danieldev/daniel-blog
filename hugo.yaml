@@ -13,6 +13,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -42,28 +43,27 @@ languages:
 
 params:
   env: producton
-  autohr: Me
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
 
+  ShowShareButtons: false
   ShowReadingTime: true
-  ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
   UseHugoToc: true
+  displayFullLangName: false
+  disableSpecial1stPost: false
   disableScrollToTop: false
-  displayFullLangName: true
+  disableHLJS: true 
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
-  howReadingTime: true 
-  ShowCodeCopyButtons: true
 
   homeInfoParams:
     Title: 👋 Welcome to Daniel'Log
