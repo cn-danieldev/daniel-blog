@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Daniel&#39;Log</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Daniel&#39;Log</description>
+    <title>Hugo on Daniel&#39;Log</title>
+    <link>http://localhost:1313/tags/hugo/</link>
+    <description>Recent content in Hugo on Daniel&#39;Log</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 19 Jun 2024 00:17:37 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 hugo 构建个人笔记网站</title>
       <link>http://localhost:1313/posts/hugo/</link>
@@ -17,7 +17,7 @@
 后续 [repo_name] 指代的都是刚刚创建的 repo 名称。
 创建好了之后将其 clone 下来。
 安装 hugo brwe install hugo 其他系统安装请参考 官方安装教程。
-添加主题 在刚刚 clone 的 repo 内部运行下述命令：
+设置主题 添加主题 在刚刚 clone 的 repo 内部运行下述命令：
 git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically) 更新 submodule：需 cd 至 [repo_name] 目录之后运行下述命令
 git submodule update --remote --merge 修改主题样式 在 [repo_name] 目录下的 content 文件夹内创建 archives.</description>
     </item>

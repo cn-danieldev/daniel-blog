@@ -144,6 +144,24 @@
 
     </footer>
 </article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">使用 hugo 构建个人笔记网站
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>创建 github repo 命名随意，记住保持 repo 可见性为 public，方便后续 github page。并且不创建 readme.md 文件。
+后续 [repo_name] 指代的都是刚刚创建的 repo 名称。
+创建好了之后将其 clone 下来。
+安装 hugo brwe install hugo 其他系统安装请参考 官方安装教程。
+添加主题 在刚刚 clone 的 repo 内部运行下述命令：
+git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically) 更新 submodule：需 cd 至 [repo_name] 目录之后运行下述命令
+git submodule update --remote --merge 修改主题样式 在 [repo_name] 目录下的 content 文件夹内创建 archives....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-06-19 00:17:37 +0800 CST'>June 19, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Daniel</footer>
+  <a class="entry-link" aria-label="post link to 使用 hugo 构建个人笔记网站" href="http://localhost:1313/posts/hugo/"></a>
+</article>
     </main>
     
 <footer class="footer">
